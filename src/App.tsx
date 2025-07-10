@@ -10,6 +10,7 @@ export default function App() {
     <div className="min-h-screen bg-white">
       <header className="bg-[#20232A] text-white px-6 py-4 flex justify-between items-center">
         <h1 className="text-xl font-semibold">Garden Room Configurator</h1>
+        
       </header>
       
       <main className="container mx-auto px-4 py-8">
