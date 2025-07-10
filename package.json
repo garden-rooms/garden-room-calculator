@@ -7,14 +7,10 @@
     "dev": "npm-run-all --parallel dev:frontend dev:backend",
     "dev:frontend": "vite --open",
     "dev:backend": "convex dev",
-<<<<<<< HEAD
     "lint": "tsc -p convex -noEmit --pretty false && tsc -p . -noEmit --pretty false && convex dev --once && vite build",
     "build": "chmod +x node_modules/.bin/vite && vite build",
     "preview": "vite preview",
     "vercel-build": "npm ci && npm run build"
-=======
-    "lint": "tsc -p convex -noEmit --pretty false && tsc -p . -noEmit --pretty false && convex dev --once && vite build"
->>>>>>> 02ab951 (Sync frontend with latest changes from Chef)
   },
   "dependencies": {
     "@convex-dev/auth": "^0.0.80",
